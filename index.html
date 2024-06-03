@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <div class="container">
+            <h1>Weather App</h1>
+            <input type="text" id="locationInput" placeholder="Enter a city">
+            <button id="searchButton">Search</button>
+            <div class="weather-info">
+                <h2 id="location"></h2>
+                <p id="temperature"></p>
+                <div> 
+                    <img src="https://openweathermap.org/img/wn/02n.png" id="icon"></img>    
+                    <span id="description"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="container container-chart">
+            <h1>Weather App Website</h1>
+            <canvas id="myChart"></canvas>
+        </div>
+        <div class="container">
+            <h1>Mogadishu Temperature</h1>
+            <canvas id="chartCity1"></canvas>
+        </div>
+        <div class="container">
+            <h1>Bosaso Temperature</h1>
+            <canvas id="chartCity2"></canvas>
+        </div>
+        <div class="container">
+            <h1>Girible Temperature</h1>
+            <canvas id="chartCity3"></canvas>
+        </div>
+        <div class="container">
+            <h1>Hargeysa Temperature</h1>
+            <canvas id="chartCity4"></canvas>
+        </div>
+        <div class="container">
+            <h1>Garowe Temperature</h1>
+            <canvas id="chartCity5"></canvas>
+        </div>
+        <div class="container">
+            <h1>Barbara Temperature</h1>
+            <canvas id="chartCity6"></canvas>
+        </div>
+
+        <footer>
+            Weather App © 2024 All Rights Reserved.
+        </footer>
+    </div>
+
+    
+    <script src="charttest.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
